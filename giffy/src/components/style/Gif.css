@@ -1,0 +1,14 @@
+h4{
+   margin: 0;
+   padding: 0;
+}
+.itemGif {
+   border: 1px solid #fff;
+   padding: 10px;
+   margin-bottom: 15px;
+}
+
+.itemGif p{
+   margin: 0;
+   padding: 0;
+}
