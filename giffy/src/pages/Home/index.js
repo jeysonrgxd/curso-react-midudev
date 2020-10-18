@@ -32,6 +32,7 @@ export default function Home(){
          <form onSubmit={handleSubmit} className="App-content-form">
             <input placeholder="Busca un Gif" onChange={handleChange} value={keyword} type="text"/>
          </form>
+         <h2>Ultima Busqueda</h2>
          <div className="App-content-gifs-muestra">
             <ListOfGifs loading={loading} gifs={gifs}/>
          </div>
