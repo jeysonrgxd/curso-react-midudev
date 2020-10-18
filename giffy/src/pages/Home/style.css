@@ -1,0 +1,45 @@
+
+.App-content-menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.App-content-menu h1{
+   margin-top: 0;
+   background: -webkit-linear-gradient(left,#00FF99 20%, #FFF35C 40%,#FF6666 60%,#9933FF 80%,#00CCFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.App-content-menu ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.App-content-menu ul li a{
+  color: #fff;
+  /* text-decoration: none; */
+}
+
+.App-content-gifs-muestra{
+  margin:20px 0;
+}
+
+.nintendo-img img{
+   width: 120px;
+}
+.App-content-form input{
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #333333;
+  font-size: 18px;
+  outline: none;
+}

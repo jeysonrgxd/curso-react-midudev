@@ -12,26 +12,3 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-content-menu{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-}
-
-.App-content-menu ul{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-
-.App-content-menu ul li a{
-  color: #fff;
-  /* text-decoration: none; */
-}
-
-

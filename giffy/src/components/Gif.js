@@ -6,7 +6,7 @@ export default function Gif({id,title,url}) {
       <div className="itemGif" key={id}>
          <h4>{title}</h4>
          <small>{id}</small>
-         <p><img alt={title} src={url} /></p>
+         <p><a href=""><img alt={title} src={url} /></a></p>
       </div>
    )
 }
